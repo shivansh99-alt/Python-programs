@@ -1,0 +1,7 @@
+def print_positive_numbers(start, end):
+    for number in range(start, end + 1):
+        if number > 0:
+            print(number)
+
+# Call the function with your desired range
+print_positive_numbers(1, 10)
